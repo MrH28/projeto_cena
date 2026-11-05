@@ -1,0 +1,25 @@
+{
+  "data_dir": ".",
+  "spectra": "visnir",
+  "output_dir": "resultados_pipeline_visnir",
+  "targets": null,
+  "test_size": 0.2,
+  "cv_splits": 3,
+  "max_components": 10,
+  "derivative": 1,
+  "window_length": 11,
+  "snv": true,
+  "seed": 42,
+  "n_samples_joined": 6120,
+  "n_spectral_variables": 2151,
+  "wavelength_first": 350.0,
+  "wavelength_last": 2500.0,
+  "targets_completed": [
+    "Sand_gkg",
+    "Clay_gkg",
+    "SOM_gkg",
+    "pH_H2O",
+    "Ca_mmolkg",
+    "CEC_Ph7_mmolkg"
+  ]
+}
